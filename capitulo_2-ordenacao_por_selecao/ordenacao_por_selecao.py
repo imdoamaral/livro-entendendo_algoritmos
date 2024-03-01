@@ -1,4 +1,4 @@
-# primeiro, uma função para encontra o menor elemento em um array
+# Função para encontra o menor elemento em um array
 
 def buscaMenor(array):
     menor = array[0]
@@ -10,7 +10,6 @@ def buscaMenor(array):
     return menor_indice
 
 # Ordenação por Seleção
-
 def ordenacaoPorSelecao(array):
     novoArray = []
     for i in range(len(array)):
